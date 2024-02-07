@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "chatbot-env"
+version = "0.1.0"
+description = ""
+authors = ["Philipp Habicht <philipphabicht@web.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "*"
+uvicorn = "*"
+pydantic = "*"
+requests = "*"
+numpy = "^1.24.0"
+pyyaml = "^6.0"
+openai = "*"
+langchain = "*"
+python-dotenv = "*"
+aiohttp = "*"
+cryptography = "*"
+PyPDF2 = "*"
+supabase = "*"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.0"
+pandas = "^2.2.0"
+langchain-openai = "^0.0.5"
+langchain-community = "^0.0.16"
+
+[build-system]
+requires = ["poetry-core", "setuptools"]
+build-backend = "poetry.core.masonry.api"
+

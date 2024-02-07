@@ -1,0 +1,8 @@
+# Personal data pdf
+database/chatbot-text.pdf
+
+# System files
+.DS_Store
+
+# API keys
+secrets/
